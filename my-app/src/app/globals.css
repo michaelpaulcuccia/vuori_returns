@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+:root {
+  --breakpoint-lg: 1024px;
+}
+
 html,
 body {
   overflow-x: hidden;
@@ -27,5 +31,21 @@ a {
   .shadow-custom {
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.4),
       0px 10px 20px 0px rgba(0, 0, 0, 0.2);
+  }
+}
+
+@layer utilities {
+  .headline-text {
+    color: #5a5a5a;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 46px;
+    text-align: left;
+  }
+
+  @media (min-width: var(--breakpoint-lg)) {
+    .headline-text {
+      text-align: center;
+    }
   }
 }
