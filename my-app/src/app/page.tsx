@@ -3,6 +3,7 @@ import Nav from "../../components/Nav";
 import PageLayout from "../../components/PageLayout";
 import PageContentContainer from "../../components/PageContentContainer";
 import ReturnBar from "../../components/ReturnBar";
+import ReturnHero from "../../components/ReturnHero";
 
 export default function page() {
   return (
@@ -11,7 +12,7 @@ export default function page() {
       <PageLayout>
         <PageContentContainer>
           <ReturnBar />
-          <div>right</div>
+          <ReturnHero />
         </PageContentContainer>
       </PageLayout>
     </>

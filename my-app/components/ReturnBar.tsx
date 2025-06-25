@@ -7,7 +7,7 @@ const ReturnBar: React.FC = () => {
   const [showHelpText, setShowHelpText] = useState(false);
 
   return (
-    <div className="w-full lg:w-[28%] p-4">
+    <div className="w-full lg:w-[30vw] p-4">
       <h2 className="headline-text">MAKING A RETURN?</h2>
       <p className="text-[#5a5a5a] font-bold">
         It's easy! Just enter your order information below to get started.

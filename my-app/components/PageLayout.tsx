@@ -10,8 +10,8 @@ const PageLayout: React.FC<PageLayoutProps> = ({ children }) => {
       className="
         flex flex-col
         my-[16px]
-        ml-[20px] 
-        lg:ml-[40px] 
+        ml-[0px] 
+        lg:ml-[20px] 
       "
     >
       {children}
