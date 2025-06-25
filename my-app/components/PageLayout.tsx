@@ -9,7 +9,7 @@ const PageLayout: React.FC<PageLayoutProps> = ({ children }) => {
     <div
       className="
         flex flex-col
-        my-[16px]
+        mt-[16px]
         ml-[0px] 
         lg:ml-[20px] 
       "

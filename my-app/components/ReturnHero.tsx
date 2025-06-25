@@ -17,7 +17,7 @@ const ReturnHero: React.FC = () => {
       </div>
 
       {/* Desktop Image */}
-      <div className="hidden lg:block relative w-[65vw] h-screen">
+      <div className="hidden lg:block relative w-[73vw] h-screen">
         <Image
           src="/images/returns_desktop.jpg"
           alt="Returns Desktop Hero"

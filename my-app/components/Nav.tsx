@@ -15,7 +15,7 @@ const Nav: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="w-full flex flex-col items-center mt-4 relative">
+    <nav className="w-full flex flex-col items-center mt-1 relative">
       {/* Top Row */}
       <div className="w-full flex flex-row items-center justify-center px-4">
         {/* Hamburger Icon (mobile only) */}
