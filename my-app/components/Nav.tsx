@@ -42,11 +42,7 @@ const Nav: React.FC = () => {
         className={`
           transition-all duration-300 ease-in-out overflow-hidden
           flex-col items-center space-y-3 mt-4
-          ${
-            menuOpen
-              ? "flex border-t border-gray-300 border-b-4 border-b-gray-400"
-              : "hidden"
-          }
+          ${menuOpen ? "flex shadow-custom" : "hidden"}
           lg:hidden
           w-full py-4
         `}
