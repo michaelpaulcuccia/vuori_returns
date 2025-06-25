@@ -21,7 +21,6 @@ const CustomForm: React.FC = () => {
     }
 
     setError("");
-    // Proceed with form logic...
     console.log("Form submitted:", { orderNumber, email });
   };
 
