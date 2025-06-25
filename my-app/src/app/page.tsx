@@ -1,6 +1,12 @@
 import React from "react";
 import PageLayout from "../../components/PageLayout";
+import Nav from "../../components/Nav";
 
 export default function page() {
-  return <PageLayout>page</PageLayout>;
+  return (
+    <>
+      <Nav />
+      <PageLayout>page</PageLayout>
+    </>
+  );
 }
