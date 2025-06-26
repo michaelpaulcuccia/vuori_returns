@@ -44,9 +44,9 @@ const CustomForm: React.FC = () => {
 
       <button
         type="submit"
-        className="w-full h-[40px] bg-[#5a5a5a] text-white text-sm rounded-[2px]"
+        className="w-full h-[40px] bg-[#5a5a5a] text-white text-sm rounded-[2px] font-bold"
       >
-        Next
+        NEXT
       </button>
     </form>
   );

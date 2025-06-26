@@ -24,7 +24,7 @@ const Nav: React.FC = () => {
           onClick={() => setMenuOpen((prev) => !prev)}
           aria-label="Toggle menu"
         >
-          <FiMenu size={32} />
+          <FiMenu size={32} style={{ color: "#5a5a5a" }} />
         </button>
 
         <Image
