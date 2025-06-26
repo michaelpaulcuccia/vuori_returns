@@ -7,7 +7,7 @@ const ReturnBar: React.FC = () => {
   const [showHelpText, setShowHelpText] = useState(false);
 
   return (
-    <div className="w-full lg:w-[25vw] p-4 h-screen overflow-y-auto mt-0 lg:mt-20">
+    <div className="w-full lg:w-[25vw] p-4 h-screen overflow-y-auto mt-0 lg:mt-36">
       {/* <div className="h-screen overflow-y-auto p-4"> */}
       <h2 className="headline-text">Making A Return?</h2>
       <div className="mb-2"></div>

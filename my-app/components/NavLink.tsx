@@ -12,7 +12,7 @@ const NavLink: React.FC<NavLinkProps> = ({ name, route, target = "_self" }) => {
       href={route}
       target={target}
       rel={target === "_blank" ? "noopener noreferrer" : undefined}
-      className="text-center text-[18px] font-medium text-[#5a5a5a] hover:underline"
+      className="text-center text-[18px] font-medium lg:text-[#5a5a5a] text=[#000000] hover:underline"
     >
       {name}
     </a>
