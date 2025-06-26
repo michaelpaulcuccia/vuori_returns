@@ -17,7 +17,12 @@ This project is a responsive clone of the [Vuori Returns page](https://returns.n
 
 ## 📸 Preview
 
-![Vuori Desktop Comparision Screenshot](https://github.com/michaelpaulcuccia/vuori_returns/blob/master/my-app/public/desktop_comparison.png)  
+### Desktop
+
+![Vuori Desktop Comparision Screenshot](https://github.com/michaelpaulcuccia/vuori_returns/blob/master/my-app/public/desktop_comparison.png)
+
+### Mobile
+
 ![Vuori Mobile Comparision Screenshot](https://github.com/michaelpaulcuccia/vuori_returns/blob/master/my-app/public/mobile_comparison.png)
 
 ---
